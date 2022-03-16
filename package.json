@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/random-base-betaprime",
+  "version": "0.0.0",
+  "description": "Beta prime distributed pseudorandom numbers.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/random-base-betaprime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "statistics",
+    "stats",
+    "prng",
+    "rng",
+    "pseudorandom",
+    "random",
+    "rand",
+    "randn",
+    "beta",
+    "prime",
+    "inverted",
+    "generator",
+    "seed",
+    "seedable",
+    "factory",
+    "probability"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
