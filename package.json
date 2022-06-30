@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base-betaprime",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Beta prime distributed pseudorandom numbers.",
   "license": "Apache-2.0",
   "author": {
