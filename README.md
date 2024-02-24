@@ -442,6 +442,14 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/random-array/betaprime`][@stdlib/random/array/betaprime]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a beta prime distribution.</span>
+-   <span class="package-name">[`@stdlib/random-iter/betaprime`][@stdlib/random/iter/betaprime]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a beta prime distribution.</span>
+-   <span class="package-name">[`@stdlib/random-streams/betaprime`][@stdlib/random/streams/betaprime]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a beta prime distribution.</span>
+
 </section>
 
 <!-- /.related -->
@@ -485,8 +493,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-base-betaprime.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-base-betaprime
 
-[test-image]: https://github.com/stdlib-js/random-base-betaprime/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/random-base-betaprime/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/random-base-betaprime/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/random-base-betaprime/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-base-betaprime/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-base-betaprime?branch=main
@@ -521,6 +529,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [betaprime]: https://en.wikipedia.org/wiki/Beta_prime_distribution
 
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+<!-- <related-links> -->
+
+[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime
+
+[@stdlib/random/iter/betaprime]: https://github.com/stdlib-js/random-iter-betaprime
+
+[@stdlib/random/streams/betaprime]: https://github.com/stdlib-js/random-streams-betaprime
+
+<!-- </related-links> -->
 
 </section>
 
