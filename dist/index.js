@@ -1,0 +1,11 @@
+"use strict";var o=function(t,r){return function(){return r||t((r={exports:{}}).exports,r),r.exports}};var y=o(function(Y,d){
+var f=require('@stdlib/assert-is-positive-number/dist').isPrimitive,p=require('@stdlib/error-tools-fmtprodmsg/dist');function W(t,r){return f(t)?f(r)?null:new TypeError(p('0nx72',r)):new TypeError(p('0nx71',t));}d.exports=W
+});var b=o(function(Z,q){
+function k(t,r,s){return t(r,1)/t(s,1)}q.exports=k
+});var c=o(function(_,R){
+var u=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),v=require('@stdlib/utils-define-nonenumerable-read-only-accessor/dist'),h=require('@stdlib/utils-define-nonenumerable-read-write-accessor/dist'),L=require('@stdlib/assert-is-plain-object/dist'),S=require('@stdlib/utils-constant-function/dist'),B=require('@stdlib/utils-noop/dist'),g=require('@stdlib/random-base-gamma/dist').factory,N=require('@stdlib/math-base-assert-is-nan/dist'),C=require('@stdlib/array-to-json/dist'),O=require('@stdlib/error-tools-fmtprodmsg/dist'),D=y(),w=b();function H(){var t,r,s,a,i,e,m;if(arguments.length===0)t=g();else if(arguments.length===1){if(a=arguments[0],!L(a))throw new TypeError(O('0nx2V',a));t=g(a)}else{if(r=arguments[0],s=arguments[1],m=D(r,s),m)throw m;if(arguments.length>2){if(a=arguments[2],!L(a))throw new TypeError(O('0nx2V',a));t=g(a)}else t=g()}return r===void 0?e=z:e=M,i=t.PRNG,u(e,"NAME","betaprime"),a&&a.prng?(u(e,"seed",null),u(e,"seedLength",null),h(e,"state",S(null),B),u(e,"stateLength",null),u(e,"byteLength",null),u(e,"toJSON",S(null))):(v(e,"seed",j),v(e,"seedLength",A),h(e,"state",F,G),v(e,"stateLength",T),v(e,"byteLength",V),u(e,"toJSON",J)),u(e,"PRNG",i),e;function j(){return i.seed}function A(){return i.seedLength}function T(){return i.stateLength}function V(){return i.byteLength}function F(){return i.state}function G(n){i.state=n}function J(){var n={};return n.type="PRNG",n.name=e.NAME,n.state=C(i.state),r===void 0?n.params=[]:n.params=[r,s],n}function M(){return w(t,r,s)}function z(n,l){return N(n)||N(l)||n<=0||l<=0?NaN:w(t,n,l)}}R.exports=H
+});var x=o(function($,E){
+var I=c(),K=I();E.exports=K
+});var Q=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),P=x(),U=c();Q(P,"factory",U);module.exports=P;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
